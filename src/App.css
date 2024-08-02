@@ -1,38 +1,122 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  /* background-color: #074c5e; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* font-size: calc(10px + 2vmin);
+  color: #ebac70; */
+}
+
+/* title font
+.audiowidefont{
+  font-family: "Audiowide", sans-serif;
+  color: #c0483b;
+}
+
+/* body  font */
+.monacofont{
+  font-family: "monaco", monospace;
+  color: #794a3a;
+} */
+
+/* glow score title orange */
+h6.a{
+  font-family: "Audiowide", sans-serif;
+  color: #f57f5b;
+  text-shadow: #f7997c 1px 0 10px;
+}
+
+/* glow score title yellow */
+h7.a{
+  font-family: "monaco", monospace;
+  color: #faca78;
+  text-shadow: #967948 1px 0 10px;
+}
+
+.OrangeFont {
+  color: #ebac70;
+}
+
+.DarkBlueBackground {
+  background-color: #074c5e;
+}
+
+.DarkGreenBackground {
+  background-color: #173c36;
+}
+
+.LightBlueFont {
+  color: #79a4ad;
+}
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+.App-header {
+  background-color: #173c36;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  padding: 20px;
+  justify-content: space-between;
+  font-size: calc(12px + 2vmin);
+  color: #79a4ad;
+}
+
+/*header button style */
+.HeaderButton {
+  background-color: #173c36;
+  color: #79a4ad;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+/* hover over button colors */
+button:hover {
+    color: #173c36;
+    background-color: #79a4ad;
+}
+
+/* input[type="submit"].btn:hover {
+  color: #173c36;
+  background-color: #79a4ad;
+} */
+
+.nav-button-active {
+  color: #79a4ad;
+  text-decoration: underline;
+}
+
+.Body {
+  background-color: #074c5e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #ebac70;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
