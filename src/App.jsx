@@ -1,10 +1,14 @@
 // import logo from './logo.svg';
 import './App.css';
-//flexbox within react
-// import * as React from 'react';
-
 import React, { useState } from 'react';
 
+//import views
+import AboutMeView from './views/AboutMeView.jsx';
+import PortfolioView from './views/portfolioView.jsx';
+import ContactView from './views/ContactView.jsx';
+import ResumeView from './views/resumeView.jsx';
+
+//set current views
 const App = () => {
   const [currentView, setCurrentView] = useState('AboutMe');
 
@@ -15,14 +19,15 @@ const App = () => {
   return (
     <div>
       <Navigation handleViewChange={handleViewChange} currentView={currentView} />
-      {currentView === 'AboutMe' && <AboutMe />}
-      {currentView === 'Portfolio' && <Portfolio />}
-      {currentView === 'Contact' && <Contact />}
-      {currentView === 'Resume' && <Resume />}
+      {currentView === 'AboutMe' && <AboutMeView/>}
+      {currentView === 'Portfolio' && <PortfolioView/>}
+      {currentView === 'Contact' && <ContactView/>}
+      {currentView === 'Resume' && <ResumeView/>}
     </div>
   );
 };
 
+//nav buttons - trigger view change
 const Navigation = ({ handleViewChange, currentView }) => {
   return (
     <div className='App-header'>
@@ -34,10 +39,5 @@ const Navigation = ({ handleViewChange, currentView }) => {
     </div>
   );
 };
-
-const AboutMe = () => <div>About Me Content</div>;
-const Portfolio = () => <div>Portfolio Content</div>;
-const Contact = () => <div>Contact Content</div>;
-const Resume = () => <div>Resume Content</div>;
 
 export default App;
