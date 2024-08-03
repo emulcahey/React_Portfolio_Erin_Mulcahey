@@ -4,9 +4,10 @@ import React, { useState } from 'react';
 
 //import views
 import AboutMeView from './views/AboutMeView.jsx';
-import PortfolioView from './views/portfolioView.jsx';
+import PortfolioView from './views/PortfolioView.jsx';
 import ContactView from './views/ContactView.jsx';
-import ResumeView from './views/resumeView.jsx';
+import ResumeView from './views/ResumeView.jsx';
+import { Link } from 'react-router-dom';
 
 //set current views
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
       {currentView === 'Portfolio' && <PortfolioView/>}
       {currentView === 'Contact' && <ContactView/>}
       {currentView === 'Resume' && <ResumeView/>}
+      <Footer />
     </div>
   );
 };
@@ -36,6 +38,16 @@ const Navigation = ({ handleViewChange, currentView }) => {
       <button className={ currentView ==='Portfolio' ? 'HeaderButton nav-button-active' : 'HeaderButton'} onClick={() => handleViewChange('Portfolio')}>Portfolio</button>
       <button className={ currentView ==='Contact' ? 'HeaderButton nav-button-active' : 'HeaderButton'} onClick={() => handleViewChange('Contact')}>Contact</button>
       <button className={ currentView ==='Resume' ? 'HeaderButton nav-button-active' : 'HeaderButton'} onClick={() => handleViewChange('Resume')}>Resume</button>
+    </div>
+  );
+};
+
+const Footer = () => {
+  return (
+    <div className='App-footer'>
+        <div>GitHub Profile Link</div>
+        <div>LinkedIn profile Link</div>
+        <div>Third platform (Stack Overflow, Twitter) Profile</div>
     </div>
   );
 };

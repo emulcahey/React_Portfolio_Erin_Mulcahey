@@ -69,7 +69,7 @@ h7.a{
   align-items: top;
   padding: 20px;
   justify-content: space-between;
-  font-size: calc(12px + 2vmin);
+  font-size: calc(20px + 2vmin);
   color: #79a4ad;
 }
 
@@ -78,7 +78,7 @@ h7.a{
   background-color: #173c36;
   color: #79a4ad;
   border: none;
-  font-size: 16px;
+  font-size: 20px;
   cursor: pointer;
   border-radius: 6px;
 }
@@ -116,4 +116,74 @@ button:hover {
   height: 200px;
   width: 200px;
   border-radius: 50%;
+}
+
+/* about me classes */
+.AboutMeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.AboutMeText {
+  text-wrap: wrap;
+  font-size: 20px;
+  margin-top: 20px;
+  width: 60vw;
+  height: 100vh;
+}
+
+/* Project box */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.projectBox {
+  flex: 1 1 300px;
+  position: relative;
+  height: 200px;
+  max-width: 300px;
+  margin: 20px;
+  border-radius: 10px 100px / 120px;
+  }
+
+.project-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s;
+}
+
+.projectBox:hover .project-info {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* footer */
+.App-footer {
+  background-color: #173c36;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-evenly;
+  font-size: calc(10px + 2vmin);
+  color: #79a4ad;
+  /* keep footer on bottom of page*/
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
