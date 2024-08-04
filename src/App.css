@@ -38,6 +38,18 @@ h7.a{
   color: #ebac70;
 }
 
+.OrangeBackground {
+  background-color: #ebac70;
+}
+
+.DarkBlueBackground {
+  background-color: #074c5e;
+}
+
+.DarkBlueFont {
+  color: #074c5e;
+}
+
 .DarkBlueBackground {
   background-color: #074c5e;
 }
@@ -46,8 +58,16 @@ h7.a{
   background-color: #173c36;
 }
 
+.DarkGreenFont {
+  color: #173c36;
+}
+
 .LightBlueFont {
   color: #79a4ad;
+}
+
+.LightBlueBackground {
+  background-color: #79a4ad;
 }
 
 /* .App-logo {
@@ -115,7 +135,8 @@ button:hover {
 .App-logo {
   height: 200px;
   width: 200px;
-  border-radius: 50%;
+  border-radius: 10px 100px / 120px;
+
 }
 
 /* about me classes */
@@ -186,4 +207,58 @@ button:hover {
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+/* contact form */
+form {
+  margin-top: 20px;
+}
+
+.ContactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+  width: 100vw;
+  background-color: #173c36;
+  font-size: calc(10px + 2vmin);
+  color: #ebac70;
+}
+
+.formRow {
+  margin: 10px 0 20px 0;
+}
+
+.formInput {
+  padding: 15px 10px;
+  border-radius: 10px 100px / 120px;
+  min-width: 50%;
+  color: #074c5e;
+}
+
+.errorMessage {
+  color: #f45532;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.submit-btn {
+  padding: 15px 50px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  border-radius: 10px 100px / 120px;
+
+}
+
+@media (max-width: 768px) {
+  .submit-message {
+    width: 125px;
+    margin-left: 200px;
+  }
+}
+
+::placeholder {
+  color: #074c5e;
 }
