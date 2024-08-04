@@ -1,11 +1,8 @@
 .App {
   text-align: center;
-  /* background-color: #074c5e; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  /* font-size: calc(10px + 2vmin);
-  color: #ebac70; */
 }
 
 /* title font
@@ -14,32 +11,26 @@
   color: #c0483b;
 }
 
-/* body  font */
+/* body  font
 .monacofont{
   font-family: "monaco", monospace;
   color: #794a3a;
 } */
 
-/* glow score title orange */
-h6.a{
-  font-family: "Audiowide", sans-serif;
-  color: #f57f5b;
-  text-shadow: #f7997c 1px 0 10px;
+.CreamFont {
+  color: #F2ECCE;
 }
 
-/* glow score title yellow */
-h7.a{
-  font-family: "monaco", monospace;
-  color: #faca78;
-  text-shadow: #967948 1px 0 10px;
+.CreamBackground {
+  background-color: #F2ECCE;
 }
 
 .OrangeFont {
-  color: #ebac70;
+  color: #D99E30;
 }
 
 .OrangeBackground {
-  background-color: #ebac70;
+  background-color: #D99E30;
 }
 
 .DarkBlueBackground {
@@ -55,34 +46,23 @@ h7.a{
 }
 
 .DarkGreenBackground {
-  background-color: #173c36;
+  background-color: #594234;
 }
 
 .DarkGreenFont {
-  color: #173c36;
+  color: #594234;
 }
 
 .LightBlueFont {
-  color: #79a4ad;
+  color: #0B8C8C;
 }
 
 .LightBlueBackground {
-  background-color: #79a4ad;
+  background-color: #0B8C8C;
 }
 
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-} */
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
 .App-header {
-  background-color: #173c36;
+  background-color: #0B8C8C;
   height: 40px;
   display: flex;
   flex-direction: row;
@@ -90,13 +70,14 @@ h7.a{
   padding: 20px;
   justify-content: space-between;
   font-size: calc(20px + 2vmin);
-  color: #79a4ad;
+  color: #F2ECCE;
+  padding-right: 60px;
 }
 
 /*header button style */
 .HeaderButton {
-  background-color: #173c36;
-  color: #79a4ad;
+  background-color: #0B8C8C;
+  color: #F2ECCE;
   border: none;
   font-size: 20px;
   cursor: pointer;
@@ -105,17 +86,12 @@ h7.a{
 
 /* hover over button colors */
 button:hover {
-    color: #173c36;
-    background-color: #79a4ad;
+    color: #D9411E;
+    background-color: #0B8C8C;
 }
 
-/* input[type="submit"].btn:hover {
-  color: #173c36;
-  background-color: #79a4ad;
-} */
-
 .nav-button-active {
-  color: #79a4ad;
+  color: #D9411E;
   text-decoration: underline;
 }
 
@@ -125,7 +101,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
-  color: #ebac70;
+  color: #D99E30;
 }
 
 .App-link {
@@ -136,7 +112,6 @@ button:hover {
   height: 200px;
   width: 200px;
   border-radius: 10px 100px / 120px;
-
 }
 
 /* about me classes */
@@ -154,7 +129,9 @@ button:hover {
   font-size: 20px;
   margin-top: 20px;
   width: 60vw;
-  height: 100vh;
+  height: fit-content;
+  padding: 35px;
+  border-radius: 10px 100px / 120px;
 }
 
 /* Project box */
@@ -174,6 +151,7 @@ button:hover {
   max-width: 300px;
   margin: 20px;
   border-radius: 10px 100px / 120px;
+  border: 5px solid #D99E30;
   }
 
 .project-info {
@@ -185,6 +163,8 @@ button:hover {
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.5s;
+  color:#D9411E;
+  text-emphasis: bold;
 }
 
 .projectBox:hover .project-info {
@@ -194,7 +174,7 @@ button:hover {
 
 /* footer */
 .App-footer {
-  background-color: #173c36;
+  background-color: #594234;
   height: 40px;
   display: flex;
   flex-direction: row;
@@ -202,9 +182,7 @@ button:hover {
   padding: 20px;
   justify-content: space-evenly;
   font-size: calc(10px + 2vmin);
-  color: #79a4ad;
-  /* keep footer on bottom of page*/
-  position: fixed;
+  color: #0B8C8C;
   bottom: 0;
   width: 100%;
 }
@@ -221,9 +199,9 @@ form {
   padding: 20px;
   height: 100vh;
   width: 100vw;
-  background-color: #173c36;
+  background-color: #594234;
   font-size: calc(10px + 2vmin);
-  color: #ebac70;
+  color: #D99E30;
 }
 
 .formRow {
@@ -238,7 +216,7 @@ form {
 }
 
 .errorMessage {
-  color: #f45532;
+  color: #D9411E;
   font-size: 14px;
   margin: 0;
   padding: 0;
@@ -261,4 +239,27 @@ form {
 
 ::placeholder {
   color: #074c5e;
+}
+
+/* resume box */
+.ResumeContainer {
+  display: flex;
+flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 20px;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+}
+
+.ResumeItemBox {
+  flex: 1 1 300px;
+  font-size: 20px;
+  height: 300px;
+  padding: 35px;
+  max-width: 300px;
+  margin: 20px;
+  border-radius: 10px 100px / 120px;
+  background-color: #D99E30;
+  color:#F2ECCE;
 }

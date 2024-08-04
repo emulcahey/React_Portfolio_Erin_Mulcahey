@@ -3,11 +3,11 @@ import logo from '../images/mountain-icon.avif';
 
 export default function AboutMeView() {
   return (
-    <div className="DarkGreenBackground AboutMeContainer OrangeFont">
+    <div className="DarkGreenBackground AboutMeContainer CreamFont">
       <title> About Me </title>
       <img src={logo} className="App-logo" alt="logo" />
 
-        <div className="AboutMeText DarkGreenBackground">
+        <div className="AboutMeText OrangeBackground ">
           <p>Erin Mulcahey is a Senior Legal Assistant, with experience managing a team of Legal Assistants while assisting Case Managers and Attorneys. 
           Her background in managing groups, completing large projects, and working with the public shows her ability to adjust to different scenarios and work well with others.
           </p>

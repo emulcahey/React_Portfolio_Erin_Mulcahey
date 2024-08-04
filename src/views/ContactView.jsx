@@ -94,7 +94,7 @@ export default function ContactView() {
                           message: 'Please use 30 characters or less',
                         },
                       })}
-                      className='form-control formInput LightBlueBackground'
+                      className='form-control formInput CreamBackground'
                       placeholder='Name'
                     ></input>
                     {errors.name && (
@@ -112,7 +112,7 @@ export default function ContactView() {
                         pattern:
                           /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
                       })}
-                      className='form-control formInput LightBlueBackground'
+                      className='form-control formInput CreamBackground'
                       placeholder='Email address'
                     ></input>
                     {errors.email && (
@@ -138,7 +138,7 @@ export default function ContactView() {
                           message: 'Subject cannot exceed 75 characters',
                         },
                       })}
-                      className='form-control formInput LightBlueBackground'
+                      className='form-control formInput CreamBackground'
                       placeholder='Subject'
                     ></input>
                     {errors.subject && (
@@ -157,7 +157,7 @@ export default function ContactView() {
                       {...register('message', {
                         required: true,
                       })}
-                      className='form-control formInput LightBlueBackground'
+                      className='form-control formInput CreamBackground'
                       placeholder='Message'
                     ></textarea>
                     {errors.message && (
