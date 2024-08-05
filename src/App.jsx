@@ -2,7 +2,7 @@
 import './App.css';
 import React, { useState } from 'react';
 import githubLogo from './images/GitHub-logo.png';
-import linkedInLogo from './images/LinkedIn-logo.png';
+import linkedInLogo from './images/LinkedIn-logo.';
 import StackOverflowLogo from './images/Stack_Overflow_logo.png';
 
 //import views

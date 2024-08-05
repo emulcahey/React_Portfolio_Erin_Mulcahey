@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* title font */
+.audiowidefont{
+  font-family: "Audiowide", sans-serif;
+  color: #c0483b;
+}
+
+/* body  font */
+.monacofont{
+  font-family: "monaco", monospace;
+  color: #794a3a;
+}

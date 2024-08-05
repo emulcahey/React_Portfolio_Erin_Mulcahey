@@ -9,15 +9,17 @@ export default function Project ({ title, deployedLink, githubLink, imageSrc }) 
         <div className="projectBox" style={{backgroundImage: `url(${imageSrc})`}}>
             <div className="project-info">
                 <h3>{title}</h3>
-                <p>
-                    <a href={deployedLink} target="_blank">
-                        <img className="portfolioIcon" src={internetLogo}/>
-                    </a>
-                </p>
-                <p>
-                    <a href={githubLink} target="_blank">
-                    <img className="portfolioIcon" src={githubLogo}/>                    </a>
-                </p>
+                <div className="projectLinks">
+                    <p>
+                        <a href={deployedLink} target="_blank">
+                            <img className="portfolioIcon" src={internetLogo}/>
+                        </a>
+                    </p>
+                    <p>
+                        <a href={githubLink} target="_blank">
+                        <img className="portfolioIcon " src={githubLogo}/></a>
+                    </p>
+                </div>
             </div>
         </div>
     </>

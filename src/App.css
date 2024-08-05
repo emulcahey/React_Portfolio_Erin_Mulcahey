@@ -167,9 +167,26 @@ button:hover {
   text-emphasis: bold;
 }
 
+.project-info h3 {
+  font-size: 24px;
+}
+
+.projectLinks {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  flex-direction: row;
+}
+
 .projectBox:hover .project-info {
   opacity: 1;
   visibility: visible;
+}
+
+/*portfolio page */
+.portfolioIcon {
+  height: 60px;
+  margin: 0 10px;
 }
 
 /* footer */
@@ -194,12 +211,6 @@ button:hover {
 
 .footerIcon {
   height: 50px;
-  margin: 0 10px;
-}
-
-/*portfolio page */
-.portfolioIcon {
-  height: 40px;
   margin: 0 10px;
 }
 
@@ -285,11 +296,7 @@ flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  /* height: 100vh;
-  width: 100vw; */
   background-color: #594234;
-  /* font-size: calc(10px + 2vmin);
-  color: #D99E30; */
 }
 
 .ResumeTitle {
