@@ -3,6 +3,25 @@ import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import emailjs from '@emailjs/browser';
 
+let errors = {};
+let input = "";
+function validate(e) {
+    console.log("validate function", e.target);
+    // Function to validate form fields
+    if (e.target.value === '') {
+        errors[e.target.name] = "Field cannot be empty";
+        document.getElementById(e.target.name+"errorSpan").innerHTML = errors[e.target.name];
+    }
+    }
+
+function updateInput(e) {
+    // Function to update input value
+    console.log("updateInput function");
+    input = e.target.value;
+    errors[e.target.name] = "";
+    document.getElementById(e.target.name+"errorSpan").innerHTML = errors[e.target.name];
+    }
+
 export default function ContactView() {  
 
   const {
@@ -84,19 +103,12 @@ export default function ContactView() {
                     <input
                       type='text'
                       name='name'
-                      {...register('name', {
-                        required: {
-                          value: true,
-                          message: 'Please enter your name',
-                        },
-                        maxLength: {
-                          value: 30,
-                          message: 'Please use 30 characters or less',
-                        },
-                      })}
+                      onChange={e => updateInput(e)}
+                      onBlur={validate}
                       className='form-control formInput CreamBackground'
                       placeholder='Name'
                     ></input>
+                    <span id="nameerrorSpan">{errors["name"]}</span>
                     {errors.name && (
                       <span className='errorMessage'>
                         {errors.name.message}
@@ -128,19 +140,12 @@ export default function ContactView() {
                     <input
                       type='text'
                       name='subject'
-                      {...register('subject', {
-                        required: {
-                          value: true,
-                          message: 'Please enter a subject',
-                        },
-                        maxLength: {
-                          value: 75,
-                          message: 'Subject cannot exceed 75 characters',
-                        },
-                      })}
+                      onChange={e => updateInput(e)}
+                      onBlur={validate}
                       className='form-control formInput CreamBackground'
                       placeholder='Subject'
                     ></input>
+                    <span id="subjecterrorSpan">{errors["subject"]}</span>
                     {errors.subject && (
                       <span className='errorMessage'>
                         {errors.subject.message}
@@ -154,12 +159,12 @@ export default function ContactView() {
                     <textarea
                       rows={3}
                       name='message'
-                      {...register('message', {
-                        required: true,
-                      })}
+                      onChange={e => updateInput(e)}
+                      onBlur={validate}
                       className='form-control formInput CreamBackground'
                       placeholder='Message'
                     ></textarea>
+                    <span id="messageerrorSpan">{errors["message"]}</span>
                     {errors.message && (
                       <span className='errorMessage'>
                         Please enter a message

@@ -1,6 +1,9 @@
 // import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
+import githubLogo from './images/GitHub-logo.png';
+import linkedInLogo from './images/LinkedIn-logo.png';
+import StackOverflowLogo from './images/Stack_Overflow_logo.png';
 
 //import views
 import AboutMeView from './views/AboutMeView.jsx';
@@ -45,9 +48,15 @@ const Navigation = ({ handleViewChange, currentView }) => {
 const Footer = () => {
   return (
     <div className='App-footer'>
-        <div>GitHub Profile Link</div>
-        <div>LinkedIn profile Link</div>
-        <div>Third platform (Stack Overflow, Twitter) Profile</div>
+        <div className="leftFooterBorder">
+          <img className="footerIcon" src={githubLogo} alt="github icon" />
+        </div>
+        <div className="leftFooterBorder">
+          <img className="footerIcon" src={linkedInLogo} alt="LinkedIn icon" />
+        </div>
+        <div className="leftFooterBorder">
+          <img className="footerIcon" src={StackOverflowLogo} alt="Stack Overflow icon" />
+        </div>
     </div>
   );
 };
