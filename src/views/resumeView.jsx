@@ -3,7 +3,7 @@ export default function ResumeView() {
     return (
       <div className="DarkGreenBackground CreamFont ResumePage">
       <div className="ResumeTitle"> Resume </div> 
-      <a className="ResumeLink" href="https://drive.google.com/file/d/1H3JY4XV1yJ6R9YtJ9G0vz3ZzK0lXQe6N/view?usp=sharing" target="_blank" rel="noreferrer">Click here to view resume</a>
+      <a className="ResumeLink" href="https://docs.google.com/document/d/16MCd5UNsvc4wRTfsuvJirVF3gNh2jlPS/edit?usp=sharing&ouid=108671301899384271592&rtpof=true&sd=true" target="_blank" rel="noreferrer">Click here to view resume</a>
         <div className="ResumeText DarkGreenBackground ResumeContainer">
           <div className="ResumeItemBox">
             <p>

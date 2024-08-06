@@ -1,11 +1,12 @@
 // This is the about me view
-import logo from '../images/mountain-icon.avif';
+// import logo from '../images/mountain-icon.avif';
+import MyPicture from '../images/myPicture.jpg';
 
 export default function AboutMeView() {
   return (
     <div className="DarkGreenBackground AboutMeContainer CreamFont">
       <title> About Me </title>
-      <img src={logo} className="App-logo" alt="logo" />
+      <img src={MyPicture} className="myPhoto" alt="logo" />
 
         <div className="AboutMeText OrangeBackground ">
           <p>Erin Mulcahey is a Senior Legal Assistant, with experience managing a team of Legal Assistants while assisting Case Managers and Attorneys. 
