@@ -49,13 +49,19 @@ const Footer = () => {
   return (
     <div className='App-footer'>
         <div className="leftFooterBorder">
-          <img className="footerIcon" src={githubLogo} alt="github icon" />
+          <a href='https://github.com/emulcahey' target="_blank">
+            <img className="footerIcon" src={githubLogo} alt="github icon" />
+          </a>
         </div>
         <div className="leftFooterBorder">
-          <img className="footerIcon" src={linkedInLogo} alt="LinkedIn icon" />
+          <a href='https://www.linkedin.com/in/erin-mulcahey-5a0a38188/' target="_blank">
+            <img className="footerIcon" src={linkedInLogo} alt="LinkedIn icon" />
+          </a>
         </div>
         <div className="leftFooterBorder">
-          <img className="footerIcon" src={StackOverflowLogo} alt="Stack Overflow icon" />
+          <a href='https://try.stackoverflow.co/' target="_blank">
+            <img className="footerIcon" src={StackOverflowLogo} alt="Stack Overflow icon" />
+          </a>
         </div>
     </div>
   );
