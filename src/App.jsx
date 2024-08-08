@@ -7,7 +7,7 @@ import StackOverflowLogo from './images/Stack_Overflow_logo.png';
 
 //import views
 import AboutMeView from './views/AboutMeView.jsx';
-import PortfolioView from './views/portfolioview1.jsx';
+import PortfolioView from './views/portfolioview.jsx';
 import ContactView from './views/ContactView.jsx';
 import ResumeView from './views/ResumeView.jsx';
 import { Link } from 'react-router-dom';
