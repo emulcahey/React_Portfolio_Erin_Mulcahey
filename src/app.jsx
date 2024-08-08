@@ -6,10 +6,10 @@ import linkedInLogo from './images/LinkedIn-logo.png';
 import StackOverflowLogo from './images/Stack_Overflow_logo.png';
 
 //import views
-import AboutMeView from './views/aboutmeview1.jsx';
-import PortfolioView from './views/portfolioview1.jsx';
-import ContactView from './views/contactview1.jsx';
-import ResumeView from './views/resumeview1.jsx';
+import AboutMeView from './views/aboutmeview.jsx';
+import PortfolioView from './views/portfolioview.jsx';
+import ContactView from './views/contactview.jsx';
+import ResumeView from './views/resumeview.jsx';
 import { Link } from 'react-router-dom';
 
 //set current views

@@ -1,7 +1,7 @@
 // This is the portfolio view
 
 //project component
-import Project from './project1.jsx';
+import Project from './project.jsx';
 // import ImgHexBg from '../images/Hegaxon-Background.jpg';
 // import ImgStoneBg from '../images/Stone-Background.jpg';
 // import ImgTriangleBg from '../images/Triangle-Background.jpg';
