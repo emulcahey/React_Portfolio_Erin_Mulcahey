@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-import './App.css';
+import './app.css';
 import React, { useState } from 'react';
 import githubLogo from './images/GitHub-logo.png';
 import linkedInLogo from './images/LinkedIn-logo.png';
