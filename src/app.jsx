@@ -2,8 +2,8 @@
 import './app.css';
 import React, { useState } from 'react';
 // import githubLogo from './images/GitHub-logo.png';
-import linkedInLogo from './images/LinkedIn-logo.png';
-import StackOverflowLogo from './images/Stack_Overflow_logo.png';
+// import linkedInLogo from './images/LinkedIn-logo.png';
+// import StackOverflowLogo from './images/Stack_Overflow_logo.png';
 
 //import views
 import AboutMeView from './views/aboutmeview.jsx';
@@ -56,12 +56,12 @@ const Footer = () => {
         </div>
         <div className="leftFooterBorder">
           <a href='https://www.linkedin.com/in/erin-mulcahey-5a0a38188/' target="_blank">
-            <img className="footerIcon" src={linkedInLogo} alt="LinkedIn icon" />
+            {/* <img className="footerIcon" src={linkedInLogo} alt="LinkedIn icon" /> */}
           </a>
         </div>
         <div className="leftFooterBorder">
           <a href='https://try.stackoverflow.co/' target="_blank">
-            <img className="footerIcon" src={StackOverflowLogo} alt="Stack Overflow icon" />
+            {/* <img className="footerIcon" src={StackOverflowLogo} alt="Stack Overflow icon" /> */}
           </a>
         </div>
     </div>
