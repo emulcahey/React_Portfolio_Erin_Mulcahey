@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import './app.css';
 import React, { useState } from 'react';
-import githubLogo from './images/GitHub-logo.png';
+// import githubLogo from './images/GitHub-logo.png';
 import linkedInLogo from './images/LinkedIn-logo.png';
 import StackOverflowLogo from './images/Stack_Overflow_logo.png';
 
@@ -50,7 +50,8 @@ const Footer = () => {
     <div className='App-footer'>
         <div className="leftFooterBorder">
           <a href='https://github.com/emulcahey' target="_blank">
-            <img className="footerIcon" src={githubLogo} alt="github icon" />
+            {/* <img className="footerIcon" src={githubLogo} alt="github icon" /> */}
+            <img className="footerIcon" alt="github icon" />
           </a>
         </div>
         <div className="leftFooterBorder">
