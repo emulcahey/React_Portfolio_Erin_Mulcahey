@@ -1,7 +1,7 @@
 //project component
 // import Image from './Image.jsx';
 import githubLogo from '../images/GitHub-logo.png';
-import internetLogo from '../images/internet-Photoroom.png';
+// import internetLogo from '../images/internet-Photoroom.png';
 
 export default function Project ({ title, deployedLink, githubLink, imageSrc }) {
     return (
@@ -10,11 +10,11 @@ export default function Project ({ title, deployedLink, githubLink, imageSrc }) 
             <div className="project-info">
                 <h3>{title}</h3>
                 <div className="projectLinks">
-                    <p>
+                    {/* <p>
                         <a href={deployedLink} target="_blank">
                             <img className="portfolioIcon" src={internetLogo}/>
                         </a>
-                    </p>
+                    </p> */}
                     <p>
                         <a href={githubLink} target="_blank">
                         <img className="portfolioIcon " src={githubLogo}/></a>
