@@ -1,7 +1,7 @@
 //project component
 // import Image from './Image.jsx';
-import githubLogo from '../images/GitHub-logo.png';
-import internetLogo from '../images/internet-Photoroom.png';
+import githubLogo from '../images/github-logo.png';
+import internetLogo from '../images/internet-photo.png';
 
 export default function Project ({ title, deployedLink, githubLink, imageSrc }) {
     return (
