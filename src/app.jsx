@@ -51,7 +51,6 @@ const Footer = () => {
         <div className="leftFooterBorder">
           <a href='https://github.com/emulcahey' target="_blank">
             <img className="footerIcon" src={githubLogo} alt="github icon" />
-            <img className="footerIcon" alt="github icon" />
           </a>
         </div>
         <div className="leftFooterBorder">

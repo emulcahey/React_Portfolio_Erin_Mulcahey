@@ -1,6 +1,6 @@
 // This is the about me view
 // import logo from '../images/mountain-icon.avif';
-import MyPicture from '../images/myPicture.jpg';
+import MyPicture from '../images/mypicture.jpg';
 
 export default function AboutMeView() {
   return (
