@@ -1,9 +1,9 @@
 // import logo from './logo.svg';
 import './app.css';
 import React, { useState } from 'react';
-// import githubLogo from './images/GitHub-logo.png';
-// import linkedInLogo from './images/LinkedIn-logo.png';
-// import StackOverflowLogo from './images/Stack_Overflow_logo.png';
+import githubLogo from './images/github-logo.png';
+import linkedInLogo from './images/linkedin-logo.png';
+import StackOverflowLogo from './images/stack_overflow_logo.png';
 
 //import views
 import AboutMeView from './views/aboutmeview.jsx';
@@ -50,18 +50,18 @@ const Footer = () => {
     <div className='App-footer'>
         <div className="leftFooterBorder">
           <a href='https://github.com/emulcahey' target="_blank">
-            {/* <img className="footerIcon" src={githubLogo} alt="github icon" /> */}
+            <img className="footerIcon" src={githubLogo} alt="github icon" />
             <img className="footerIcon" alt="github icon" />
           </a>
         </div>
         <div className="leftFooterBorder">
           <a href='https://www.linkedin.com/in/erin-mulcahey-5a0a38188/' target="_blank">
-            {/* <img className="footerIcon" src={linkedInLogo} alt="LinkedIn icon" /> */}
+            <img className="footerIcon" src={linkedInLogo} alt="LinkedIn icon" />
           </a>
         </div>
         <div className="leftFooterBorder">
           <a href='https://try.stackoverflow.co/' target="_blank">
-            {/* <img className="footerIcon" src={StackOverflowLogo} alt="Stack Overflow icon" /> */}
+            <img className="footerIcon" src={StackOverflowLogo} alt="Stack Overflow icon" />
           </a>
         </div>
     </div>

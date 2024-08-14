@@ -2,16 +2,16 @@
 
 //project component
 import Project from './project.jsx';
-// import ImgHexBg from '../images/Hegaxon-Background.jpg';
-// import ImgStoneBg from '../images/Stone-Background.jpg';
-// import ImgTriangleBg from '../images/Triangle-Background.jpg';
-// import ImgCubeBg from '../images/Cube-Background.jpg';
-import BirdFinder from '../images/BirdFinder.png';
-import EmployeePayrollTracker from '../images/EmployeeTracker.png';
-import OfficeBreakRoom from '../images/OfficeBreakRoom.png';
-import PersonalBlog from '../images/PersonalBlog.png';
-import ProfessionalPortfolio from '../images/ProfessionalPortfolio.png';
-import WeatherDashboard from '../images/WeatherDashboard.png';
+// import ImgHexBg from '../images/hegaxon-background.jpg';
+// import ImgStoneBg from '../images/stone-background.jpg';
+// import ImgTriangleBg from '../images/triangle-background.jpg';
+// import ImgCubeBg from '../images/cube-background.jpg';
+import BirdFinder from '../images/birdfinder.png';
+import EmployeePayrollTracker from '../images/employeetracker.png';
+import OfficeBreakRoom from '../images/officebreakroom.png';
+import PersonalBlog from '../images/personalblog.png';
+import ProfessionalPortfolio from '../images/professionalportfolio.png';
+import WeatherDashboard from '../images/weatherdashboard.png';
 
 //portfolio view
 export default function PortfolioView() {
