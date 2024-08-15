@@ -1,32 +1,23 @@
 # React_Portfolio_Erin_Mulcahey
 
-create a portfolio, using React skills
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+My motivation for creating this application was to create a place where I can share my projects with potential jobs and other developers. I created this portfolio using React skills to help learn the latest technologies. Creating this application solves the problem of not having multiple projects all in one place. This site showcases how I used react to create an application that fulfills this need. I learned how to use React and how to push my application to Netlify to make it a live.
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+If a user wants to use the website for it's intended purpose, they just need to go to the deployed website's link.
+
+To use this program, the user will need to: -Clone this repository. And, open the repository from the installed folder. -Access the integrated terminal and install npm to use the repository. -type 'npm start' into the integrated terminal. -That will then Runs the app in the development mode. -the site can be opened in a web browser at localhost:3000.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
+The user can go to the deployed website and see all it's functionality. There are 4 tabs at the top to choose from: About Me, Portfolio, Contact, Resume. On the about Me page, the user can read text that explains infomration about the creator of the application. The portfolio will show the user multiple works from the creator and give links to each of the different works. the contact page will give the user a way to contac the creator by filling out a contact form. The resume page has a list of a lot of skills that the creator has. The resume page also has a link to the user's resume.
 
 ![alt text](assets/images/screenshot.png)
+![alt text](assets/images/screenshot.png)
+![alt text](assets/images/screenshot.png)
+
 
 ## Credits
 
