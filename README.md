@@ -14,10 +14,10 @@ To use this program, the user will need to: -Clone this repository. And, open th
 
 The user can go to the deployed website and see all it's functionality. There are 4 tabs at the top to choose from: About Me, Portfolio, Contact, Resume. On the about Me page, the user can read text that explains infomration about the creator of the application. The portfolio will show the user multiple works from the creator and give links to each of the different works. the contact page will give the user a way to contac the creator by filling out a contact form. The resume page has a list of a lot of skills that the creator has. The resume page also has a link to the user's resume.
 
-![alt text](assets/images/screenshot.png)
-![alt text](assets/images/screenshot.png)
-![alt text](assets/images/screenshot.png)
-
+![About me section of the website.](src/images/aboutmescreenshot.png)
+![Portfolio section of the website.](src/images/portfolioscreenshot.png)
+![Contact setion of the website.](src/images/contactscreenshot.png)
+![Resume setion of the website.](src/images/resumescreenshot.png)
 
 ## Credits
 
