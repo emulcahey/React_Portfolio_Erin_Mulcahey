@@ -19,6 +19,8 @@ The user can go to the deployed website and see all it's functionality. There ar
 ![Contact setion of the website.](src/images/contactscreenshot.png)
 ![Resume setion of the website.](src/images/resumescreenshot.png)
 
+Deployed Link: https://lovely-moonbeam-0307e3.netlify.appLinks to an external site.
+
 ## Credits
 
 N/A
